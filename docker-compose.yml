@@ -3,9 +3,8 @@ services:
   mysql:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: mydatabase
-
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: students
   web:
     build: .
     ports:
