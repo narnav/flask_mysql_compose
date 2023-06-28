@@ -31,3 +31,7 @@ http://localhost:5000/students
     "name": "John Doe"
   }
 ]
+
+# deploy to dockerhub
+docker build -t narnavg/back:latest .
+docker push narnavg/back:latest
